@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.contenitore {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#green {
+    background-color: green;
+    color: yellow;
+}
+
+#red {
+    background-color: red;
+    color: yellow;
+}
+
+#yellow {
+    background-color: yellow;
+    color: green;
+}
