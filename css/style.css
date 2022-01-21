@@ -6,6 +6,40 @@
 
 html {
     font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 2rem;
+    z-index: 99;
+}
+
+a.voci-menu {
+    float: left;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #000;
+    text-decoration: none;
+    box-shadow: 0px 3px 5px 0px #000;
+}
+
+a.voci-menu:hover{
+    box-shadow: 0px 5px 7px 0px #000;
+}
+
+a:visited {
+    color: #000;
+
+}
+a:active {
+    background-color: darkgray;
 }
 
 .contenitore {
